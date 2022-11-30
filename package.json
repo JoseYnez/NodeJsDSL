@@ -1,0 +1,22 @@
+{
+  "name": "nodejsdsl",
+  "version": "1.0.0",
+  "description": "Prueba de uso de jenkins con DSL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseYnez/NodeJsDSL.git"
+  },
+  "author": "Jose Luis y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseYnez/NodeJsDSL/issues"
+  },
+  "homepage": "https://github.com/JoseYnez/NodeJsDSL#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
