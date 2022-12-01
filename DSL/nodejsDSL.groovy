@@ -13,6 +13,6 @@ job('Aplicacion Node.js DSL') {
         nodejs('nodejs')
     }
     steps {
-        shell("npm install")
+        shell("echo 'Hola'")
     }
 }
