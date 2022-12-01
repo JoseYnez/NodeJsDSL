@@ -7,12 +7,15 @@ job('Aplicacion Node.js DSL') {
         }
     }
     triggers {
-        scm('H/7 * * * *')
+        scm('H/1 * * * *')
     }
     wrappers {
         nodejs('nodejs')
     }
     steps {
         shell("echo 'Hola'")
+    }
+    publishers {
+        mailer('yanezluis264@gmail.com', true, true)
     }
 }
