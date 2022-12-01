@@ -13,9 +13,9 @@ job('Aplicacion Node.js DSL') {
         nodejs('nodejs')
     }
     steps {
-        shell("echo 'Hola'")
+        shell("npm install")
     }
     publishers {
-        mailer('yanezluis264@gmail.com', true, true)
+    mailer('yanezluis264@gmail.com', true, true)
     }
 }
